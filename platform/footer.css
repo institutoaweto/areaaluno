@@ -1,0 +1,31 @@
+
+
+.lista-footer{
+    display: flex;
+    justify-content: right;
+    background-color: red;
+    flex-wrap: wrap;
+
+    font-size: 20px;
+    width: 40%;
+    height: 100%;
+    color: white;
+}
+
+#dados-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: 70%;
+    height: 70%;
+    margin-top: 0px;
+}
+
+
+#nav-footer{
+    display: flex;
+    width: 100%;
+    background-color: orange;
+    padding: 2px;
+    font-size: 17px;
+}

@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/*FUNDO MENU - Usuarios*/
+.fundomenu-usuario{
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    height: 8%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom: 2px solid #007c97;
+    color: white;
+    background-color: #0C212D;
+    z-index: 2;
+}
+#titulomenu-usuario{
+    font-size: 16px;
+    padding: 10px;
+
+
+}   
+#iconemenu-usuario{
+    font-size: 26px;
+}
+
+
+
+/*FUNDO MENU*/
+.fundo-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    width: 4%;
+    background-color:#0C212D;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    margin: 0px;
+}
+.fundo-menu:hover{
+    width:25%;
+    background-color: #0C212D;
+    justify-content: space-between;
+    box-shadow: #007c97 0px 0px 8px;
+}
+
+
+
+/*FUNDO MENU - logotipo*/
+#fundomenu-logotipo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 8%;
+    box-shadow: #007c97 0px 0px 8px;
+    border-bottom: 2px solid #007c97;
+}
+#logotipo-menudesk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/*FUNDO MENU - opções*/
+#fundomenu-opçoes{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 40%;
+    border-top: 2px solid #007c97;
+    border-bottom: 2px solid #007c97;
+    box-shadow: #007c97 0px 0px 8px;
+}
+#fundomenu-blocos{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 100%;   
+    height: 20%;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x:auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    cursor: pointer;
+}
+#fundomenu-blocos:hover{
+    background-color: #043e47;
+}
+#blocomenu-um{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+#icones-blocos{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    font-size: 23px;
+    color: #FBB03B;
+    transform: translateX(10px);
+}
+#blocomenu-dois{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    width: 100%;
+    transform: translateX(45px);
+}
+.titulo-bloco{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    font-size: 18px;
+    transform: translateX(-15px);
+}
+
+
+
+/*FUNDO MENU - Sair*/
+#fundomenu-sair{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    overflow-x: visible;
+    overflow-x: auto;    
+    width: 100%;
+    height: 10%;
+    border-top: 2px solid #007c97;
+    transform: translateY(40px);
+    overflow-x: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    cursor: pointer;
+
+}
+#fundomenu-sair:hover{
+    background-color: #043e47;
+}
+#iconemenu-sair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 23px;
+    color: #FBB03B;
+    transform: translateX(10px);
+
+}
+#titulomenu-sair{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    padding: 10px;
+    overflow-x: auto;
+    overflow-x: hidden;
+
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+

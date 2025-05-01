@@ -1,0 +1,124 @@
+.desk-cursos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    white-space:nowrap;
+    overflow-x: auto;
+    width: 100%;
+}
+
+
+
+/*FUNDO ROLAGEM*/
+.bloco-rolagem{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    border-bottom: 2px solid #FBB03B;
+    padding-top: 10px;
+}
+.desk-titulo-curso{
+    width: 50%;
+}
+#titulo-curso{
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+/*FUNDO SETA*/
+.desk-rolagem-curso{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 8%;
+}
+#seta-esquerda{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+#seta-direita{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+.rolagem-curso{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    flex-wrap:nowrap;
+    padding: 10px;
+}
+
+
+/*BLOCO DE  CURSOS*/
+.bloco-cursos{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius:20px;
+    margin-top: 20px;
+}
+
+
+
+/*IMAGEM DO CURSO*/
+.back-imagem-curso{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#img-curso{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+/*TITULO DO CURSO*/
+.back-modulo-curso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+#titulo-modulo{
+    font-size: 18px;
+    color: white;
+}
+
+
+
+/*VER MAIS - CURSO*/
+.back-vermais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#text-vermais{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
